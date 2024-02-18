@@ -4,7 +4,10 @@ body {
     flex-direction: column;
     margin: 0;
   }
-  
+
+.body{
+    flex: 1;
+}
 
   .header {
     height: 72px; 
@@ -22,18 +25,19 @@ body {
     font-size: 30px;
   }
 
-.body {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+
 
 .hero{
     background: #1f2937;
     color: white;
     display: flex;
-    justify-content: center;;
+    align-items: center;
+    height: 350px
+
+}
+
+.hero-left{
+    margin-left: 200px;
 }
 
 .hero-heading{
@@ -42,40 +46,73 @@ body {
     color: #f9faf8;
 }
 
-.random {
-    text-align: center;
+.hero-img{
+    width: 350px;
 }
+
+.random{
+    height: 350px;
+
+}
+
 
 .random-header{
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+
+
 }
 .random-content{
     display: flex;
-    justify-content: center;
     gap: 52px;
+    justify-content: center;
+    text-align: center;
+
+   
+
 }
 
-.info {
-    max-width: 200px;
-  }
+
+.quote-container {
+    display: flex;
+    background: #e5e7eb;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
 
 .quote {
-    background: #e5e7eb;
     font-size: 36px;
     font-style: italic;
+    font-weight: light;
     color: #1f2937;
-    text-align: center;
+    width: 800px;
+    height: 200px;
+    display: flex;
+ 
+
+
+
+}
+
+.action-container{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
 }
 
 .action {
     background: #3882f6;
-    margin: 50px 100px;
     color: white;
-    padding: 50px 70px;
+    border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    gap: 30px;
 }
     
 .footer{
@@ -85,6 +122,11 @@ body {
     color: white;
     padding: 20px 0px;
 }
+
+img {
+    width: 100px;
+    height: 100px;
+  }
 
 
   ul {
